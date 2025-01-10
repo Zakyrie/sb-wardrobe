@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+}
+
+.wardrobe-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+#canvas-container {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #fff;
+}
+
+.armor-options {
+  margin-left: 20px;
+}
+
+.armor-options h3 {
+  margin: 10px 0;
+}
+
+.armor-options button {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
